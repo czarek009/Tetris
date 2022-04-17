@@ -1,16 +1,3 @@
-'''
-Składowe projektu:
- - kod źródłowy zgodny z PEP 8, komentarze;
- - kod źródłowy powinien być podzielony na moduły;
- - automatycznie generowana dokumentacja (Sphinx, pydoc, epydoc), zamiast wygenerowanej dokumentacji można umieścić informację o poleceniu, jakiego należy użyć do jej wygenerowania;
- - testy jednostkowe (unittest/nose/doctest);
- - skrypt do pakowania aplikacji lub fragmentu, patrz: Distributing Python Modules.
-
-Elementy aplikacji:
- - interfejs użytkownika (graficzny, webowy, ncurses etc);
- - trwale przechowywane dane (alchemy, pickle etc);
- - kod robiący coś w miarę sensownego; 
-'''
 import pygame
 import random
 from copy import deepcopy
